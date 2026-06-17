@@ -1,50 +1,50 @@
-# Internet Shop Sales Analysis
+# E-commerce Sales & Customer Analytics
 
 ## 📋 Project Description
 
-This project presents a comprehensive sales and marketing analysis for an online store using Python and Jupyter Notebook.
+This project provides a comprehensive analysis of e-commerce sales, customer behavior, and marketing performance using Python and Jupyter Notebook.
 
-The analysis combines e-commerce transaction data, customer behavior, and web analytics to identify sales patterns, customer preferences, marketing channel performance, and business growth opportunities.
+The analysis integrates transaction data, customer interactions, and web analytics to identify sales trends, customer preferences, marketing effectiveness, and business growth opportunities.
 
-The project includes exploratory data analysis (EDA), statistical hypothesis testing, data visualization, and strategic business recommendations.
+The project combines exploratory data analysis (EDA), statistical hypothesis testing, business intelligence, and data visualization to support data-driven decision-making.
 
 ---
 
-## 🎯 Project Goals
+## 🎯 Project Objectives
 
-The main objectives of the project are:
+The main goals of this project are to:
 
-- Analyze overall sales performance.
-- Identify the top-performing continents and countries.
-- Evaluate product category popularity.
-- Study customer behavior across different devices.
-- Analyze marketing traffic sources and channels.
-- Compare registered and guest users.
-- Investigate sales dynamics over time.
-- Perform statistical hypothesis testing.
-- Discover relationships between sales, sessions, and marketing channels.
-- Generate business insights and recommendations.
+* Analyze overall sales performance;
+* Identify top-performing geographic markets;
+* Evaluate product category performance;
+* Study customer behavior across different devices;
+* Analyze marketing channels and traffic sources;
+* Compare registered and guest users;
+* Investigate sales trends over time;
+* Perform statistical hypothesis testing;
+* Generate business recommendations.
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Python 3.x** – main programming language.
-- **Jupyter Notebook** – interactive data analysis.
-- **Google BigQuery** – data source.
-- **Pandas** – data manipulation.
-- **NumPy** – numerical computations.
-- **Matplotlib** – data visualization.
-- **Seaborn** – advanced visualizations.
-- **SciPy** – statistical analysis.
-- **Statsmodels** – hypothesis testing.
+* **Python 3.x**
+* **Jupyter Notebook**
+* **Google BigQuery**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Seaborn**
+* **SciPy**
+* **Statsmodels**
+* **Tableau**
 
 ---
 
 ## 📂 Project Structure
 
-```
-Internet-Shop-Sales-Analysis/
+```text
+Ecommerce-Sales-Analytics/
 ├── README.md
 └── internet_shop_sales_analysis.ipynb
 ```
@@ -55,26 +55,31 @@ Internet-Shop-Sales-Analysis/
 
 The dataset combines information about:
 
-- Customer sessions;
-- Orders and purchases;
-- Product categories;
-- Geographic information;
-- Marketing channels;
-- Traffic sources;
-- User registration status;
-- Device types;
-- Newsletter subscriptions;
-- Email verification.
+* Customer sessions;
+* Orders and purchases;
+* Product categories;
+* Geographic regions;
+* Marketing channels;
+* Traffic sources;
+* User accounts;
+* Device types;
+* Newsletter subscriptions;
+* Email verification.
 
-Key features include:
+---
 
-- Order date;
-- Product price;
-- Country and continent;
-- Device type and model;
-- Traffic source and channel;
-- Customer account information;
-- Session identifiers.
+## ❓ Business Questions
+
+This project aims to answer the following questions:
+
+* Which regions generate the highest revenue?
+* Which devices contribute the most to sales?
+* Which product categories perform best?
+* Which marketing channels are the most effective?
+* How do registered users differ from guest users?
+* Is there a relationship between traffic and sales?
+* Are customer preferences geographically dependent?
+* Which channels provide stable long-term growth?
 
 ---
 
@@ -82,127 +87,78 @@ Key features include:
 
 ### 1. Data Exploration
 
-- Dataset structure;
-- Numeric and categorical features;
-- Data quality checks.
+* Dataset structure;
+* Data quality assessment;
+* Feature analysis.
 
----
+### 2. Geographic Analysis
 
-### 2. Geographic Sales Analysis
+* Top continents;
+* Top countries;
+* Regional purchasing behavior.
 
-- Top-3 continents by sales;
-- Top-5 countries by sales;
-- Regional purchasing behavior.
+### 3. Customer Analysis
 
----
-
-### 3. Device Analysis
-
-- Sales by device type;
-- Mobile model performance;
-- Device contribution to total revenue.
-
----
+* Registered vs guest users;
+* Email verification;
+* Newsletter subscriptions.
 
 ### 4. Product Analysis
 
-- Top-10 product categories;
-- Category comparison across regions;
-- Regional purchasing preferences.
-
----
+* Product category performance;
+* Regional preferences;
+* Category comparisons.
 
 ### 5. Marketing Analysis
 
-- Sales by traffic source;
-- Sales by marketing channel;
-- Channel effectiveness.
+* Traffic source effectiveness;
+* Marketing channel performance;
+* Customer acquisition patterns.
+
+### 6. Sales Dynamics
+
+* Daily sales;
+* Geographic trends;
+* Device trends;
+* Marketing trends.
+
+### 7. Statistical Analysis
+
+The project applies several statistical methods:
+
+* Spearman Correlation;
+* Mann-Whitney U Test;
+* Kruskal-Wallis Test;
+* Two-Proportion Z-Test;
+* Chi-Square Test.
 
 ---
 
-### 6. Customer Analysis
+## 📊 Key Metrics
 
-- Registered vs guest users;
-- Email verification rates;
-- Newsletter unsubscribe rates;
-- Countries with the largest customer base.
+The analysis evaluates:
 
----
-
-### 7. Sales Dynamics
-
-- Daily sales trends;
-- Sales by continent;
-- Sales by marketing channel;
-- Sales by device type.
-
----
-
-### 8. Statistical Analysis
-
-The project includes several statistical methods:
-
-### Spearman Correlation
-
-- Sessions vs sales;
-- Sales correlation across continents;
-- Channel performance relationships.
-
-### Mann-Whitney U Test
-
-- Registered vs unregistered customer sales.
-
-### Kruskal-Wallis Test
-
-- Session distribution across traffic channels.
-
-### Z-Test for Proportions
-
-- Organic traffic comparison between continents.
-
-### Chi-Square Test
-
-- Relationship between product categories and continents.
-
----
-
-## 📊 Key Business Questions Answered
-
-- Which regions generate the highest sales?
-- Which devices drive revenue?
-- Which product categories perform best?
-- Which marketing channels are most effective?
-- How do registered users differ from guests?
-- Is there a relationship between traffic and sales?
-- Are customer preferences region-dependent?
-- Which channels provide stable revenue streams?
-
----
-
-## 📉 Data Visualization
-
-The project contains various visualizations, including:
-
-- Bar charts;
-- Pie charts;
-- Time-series plots;
-- Correlation heatmaps;
-- Distribution plots;
-- Comparative charts.
+* Revenue;
+* Customer activity;
+* Product popularity;
+* Marketing effectiveness;
+* Device performance;
+* Regional sales;
+* User engagement.
 
 ---
 
 ## 💡 Key Insights
 
-The analysis reveals:
+The analysis provides insights into:
 
-- Top-performing geographic markets.
-- Most profitable marketing channels.
-- Customer engagement patterns.
-- Device usage trends.
-- Product demand differences across regions.
-- Sales stability and volatility.
-- Opportunities for marketing optimization.
+* High-performing geographic markets;
+* Customer engagement patterns;
+* Device usage trends;
+* Product demand differences;
+* Marketing channel effectiveness;
+* Sales stability;
+* Business growth opportunities.
 
 ---
 
@@ -210,38 +166,34 @@ The analysis reveals:
 
 The results can help businesses:
 
-- Optimize marketing budgets;
-- Improve customer targeting;
-- Enhance product strategy;
-- Increase customer retention;
-- Identify growth opportunities;
-- Support data-driven decision making.
+* Optimize marketing budgets;
+* Improve customer targeting;
+* Enhance product strategies;
+* Increase customer retention;
+* Identify growth opportunities;
+* Support data-driven business decisions.
+
+The exported results can also be integrated into Tableau dashboards for executive reporting and business monitoring.
 
 ---
 
-## 📊 Dashboard
+## 🎓 Skills Demonstrated
 
-Interactive Tableau dashboards were created to complement the analysis and provide business-friendly visualizations.
+This project showcases practical experience in:
 
-They include:
-
-- Marketing performance;
-- Product performance;
-- Geographic sales distribution;
-- Customer behavior metrics.
+* Data cleaning;
+* Exploratory Data Analysis (EDA);
+* Statistical hypothesis testing;
+* Customer analytics;
+* Marketing analytics;
+* Geographic analysis;
+* Business intelligence;
+* Data visualization;
+* Tableau integration;
+* Business storytelling.
 
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates a complete e-commerce analytics workflow, combining:
-
-- Data extraction;
-- Data cleaning;
-- Exploratory analysis;
-- Statistical hypothesis testing;
-- Data visualization;
-- Business interpretation;
-- Strategic recommendations.
-
-The project showcases practical applications of Python for data analytics and business intelligence in an e-commerce environment.
+E-commerce Sales & Customer Analytics demonstrates a complete business analytics workflow by transforming raw e-commerce data into actionable business insights. The project combines data preparation, statistical analysis, visualization, and business interpretation to support strategic decision-making and improve overall business performance.
